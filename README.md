@@ -62,6 +62,9 @@ Neste projeto, foi utilizada a autenticação do SQL Server com o login `petvida
 Usuário SQL Server: petvida_app  
 Senha SQL Server: PetVida@2026!
 
+<img width="1202" height="346" alt="image" src="https://github.com/user-attachments/assets/a8bd606b-e39c-4fe0-8f13-a30e9183ae81" />
+print de uma conceção bem sucedida 
+
 ## 5. Instalação da dependência
 
 Abra o terminal na pasta do projeto e execute:

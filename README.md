@@ -90,13 +90,15 @@ Se a conexão falhar, confira o nome da instância, as credenciais, o método de
 Prints do validador:
 # Etapa 1 — Conexão
 <br/>
-![Print de uma conexão bem-sucedida](https://github.com/user-attachments/assets/b11bf36e-9ce9-4032-96ff-4cea8971a721)
+<img width="972" height="381" alt="678127854-b11bf36e-9ce9-4032-96ff-4cea8971a721" src="https://github.com/user-attachments/assets/76523a6a-a3ed-4fc9-9971-bef46af1e7af" />
+
 
 # Etapa 2 — CRUD de tutor (repositorio.py)
 
 menu de seleção:
 <br/>
 ![Print do menu de seleção](https://github.com/user-attachments/assets/f0fc2493-23e9-4abb-847f-7cec7272d056)
+
 
 criar tutor () funcionamento e verificações de erro:
 <br/>

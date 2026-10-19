@@ -89,12 +89,17 @@ Se a conexão falhar, confira o nome da instância, as credenciais, o método de
 
 Prints do validador:
 -- Questão 1 --
-![Print de uma conexão bem-sucedida](https://github.com/user-attachments/assets/b11bf36e-9ce9-4032-96ff-4cea8971a721")
+![Print de uma conexão bem-sucedida](https://github.com/user-attachments/assets/b11bf36e-9ce9-4032-96ff-4cea8971a721)
 
 -- Quetão 2 --
 
 menu de seleção:
 ![Print do menu de seleção](https://github.com/user-attachments/assets/f0fc2493-23e9-4abb-847f-7cec7272d056)
+
+
+
+
+
 
 
 
@@ -119,10 +124,30 @@ criar tutor () funcionamento e verificações de erro:
 
 
 
+
+
+
+
+
+
 buscar tutor por ID :
 tinha feito update antes por isso ta diferente da estrutura da atividade 
 ![Print do buscar tutor sucesso](https://github.com/user-attachments/assets/b1e70359-31e8-4cb9-af43-bde33fb7ee26)
 ![Print do buscar tutor erro](https://github.com/user-attachments/assets/0131fe4c-7d02-40f6-88d1-5c626fe05e81)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -133,10 +158,40 @@ listar_tutores(filtro_nome):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 atualizar_tutor(id, **campos):
 estrutura interna:
 <img width="762" height="232" alt="image" src="https://github.com/user-attachments/assets/3e82e988-27e8-480f-8ec8-bd85d7efe07c" />
 <img width="1096" height="217" alt="image" src="https://github.com/user-attachments/assets/c07f2e33-67bd-4cd4-9202-f30b691b3e15" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -146,8 +201,31 @@ teste funcionando:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 id_invalido:
 <img width="361" height="355" alt="image" src="https://github.com/user-attachments/assets/51dd40d1-2fda-44ca-ad2c-481bec766d3d" />
+
+
+
+
+
+
+
+
+
 
 
 
@@ -156,9 +234,29 @@ erro com campo fora da lista:
 
 
 
+
+
+
+
+
+
+
+
+
 Delete: excluir_tutor():
 <img width="430" height="277" alt="image" src="https://github.com/user-attachments/assets/e8d9c5eb-734c-4b26-9d22-a858067e4228" />
 <img width="667" height="270" alt="image" src="https://github.com/user-attachments/assets/4dc00f53-3d2d-45c2-a853-3bb98975521d" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -169,9 +267,28 @@ criar_pet():
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 atualizar pesso:
 <img width="362" height="342" alt="image" src="https://github.com/user-attachments/assets/61362bf3-8095-444a-b702-1a08bb078bc9" />
 <img width="287" height="311" alt="image" src="https://github.com/user-attachments/assets/183a401a-1905-4d34-a27d-04c879e6dc16" />
+
+
+
+
+
+
+
+
 
 
 
@@ -181,9 +298,27 @@ transferir_pet()
 
 
 
+
+
+
+
+
+
+
+
 excluir_pet():
 <img width="680" height="297" alt="image" src="https://github.com/user-attachments/assets/f18d936f-0c18-4a23-9ff9-2689457c9960" />
 <img width="407" height="296" alt="image" src="https://github.com/user-attachments/assets/817eda3e-a1f1-4602-a74f-824cd8cefe41" />
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -194,9 +329,24 @@ listar_pets_do_tutor():
 
 
 
+
+
+
+
+
+
+
 buscar_pet_com_tutor():
 <img width="727" height="187" alt="image" src="https://github.com/user-attachments/assets/b635d2ab-19ab-4c9f-9636-d5db66c41f28" />
 <img width="357" height="252" alt="image" src="https://github.com/user-attachments/assets/1ec445a3-bc46-45e7-b0d1-98c35f1094ba" />
+
+
+
+
+
+
+
+
 
 
 
@@ -207,10 +357,33 @@ agendar_consulta(id_pet, id_vet, data_hora, motivo, procedimentos)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 adicionar_procedimento()
 <img width="456" height="387" alt="image" src="https://github.com/user-attachments/assets/27cdeab7-7f12-4504-a14d-e7684b854980" />
 procedimento repetido:
 <img width="1480" height="425" alt="image" src="https://github.com/user-attachments/assets/281b348a-e052-4286-8004-bdc5cb22cefe" />
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -220,9 +393,34 @@ remover_procedimento()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 listar_procedimentos_da_consulta()
 <img width="482" height="440" alt="image" src="https://github.com/user-attachments/assets/fb47527a-be31-4d4b-a4d0-8ac90ec2b15f" />
 <img width="530" height="391" alt="image" src="https://github.com/user-attachments/assets/68c9c244-e248-44eb-a86c-cb019b4cf3c5" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -233,15 +431,41 @@ listar_consultas_por_procedimento()
 
 
 
+
+
+
+
+
+
+
+
+
 total_da_consulta()
 <img width="291" height="136" alt="image" src="https://github.com/user-attachments/assets/12b2e180-12ef-4828-9774-462b8ccf267c" />
 <img width="320" height="152" alt="image" src="https://github.com/user-attachments/assets/ae22a518-e7a5-4ad8-a83e-8d3cd49d8e8d" />
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 atualizar_status_consulta() 
 <img width="637" height="315" alt="image" src="https://github.com/user-attachments/assets/cb751a7d-9fc2-4a87-9221-0ba0057e1406" />
 <img width="635" height="256" alt="image" src="https://github.com/user-attachments/assets/80d10aeb-df78-4b57-ac8a-230d62bfc5e4" />
+
+
+
+
 
 
 

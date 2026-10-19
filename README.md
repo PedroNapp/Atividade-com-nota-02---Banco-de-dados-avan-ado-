@@ -89,30 +89,19 @@ Se a conexão falhar, confira o nome da instância, as credenciais, o método de
 
 Prints do validador:
 -- Questão 1 --
+<br/>
 ![Print de uma conexão bem-sucedida](https://github.com/user-attachments/assets/b11bf36e-9ce9-4032-96ff-4cea8971a721)
 
 -- Quetão 2 --
 
 menu de seleção:
+<br/>
 ![Print do menu de seleção](https://github.com/user-attachments/assets/f0fc2493-23e9-4abb-847f-7cec7272d056)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 criar tutor () funcionamento e verificações de erro:
+<br/>
 ![Print do criar tutor sucesso](https://github.com/user-attachments/assets/b52fc2d7-89cf-4a2d-ab65-09b5f170370a)
+<br/>
 ![Print do criar tutor erro](https://github.com/user-attachments/assets/58f834d8-98a4-4111-9ac6-8db93124dcaf)
 
 

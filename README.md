@@ -88,11 +88,11 @@ Após uma conexão bem-sucedida, serão exibidas as informações do servidor, d
 Se a conexão falhar, confira o nome da instância, as credenciais, o método de autenticação e as permissões do login.
 
 Prints do validador:
--- Questão 1 --
+# Etapa 1 — Conexão
 <br/>
 ![Print de uma conexão bem-sucedida](https://github.com/user-attachments/assets/b11bf36e-9ce9-4032-96ff-4cea8971a721)
 
--- Quetão 2 --
+# Etapa 2 — CRUD de tutor (repositorio.py)
 
 menu de seleção:
 <br/>
@@ -104,365 +104,163 @@ criar tutor () funcionamento e verificações de erro:
 <br/>
 ![Print do criar tutor erro](https://github.com/user-attachments/assets/58f834d8-98a4-4111-9ac6-8db93124dcaf)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 buscar tutor por ID :
 tinha feito update antes por isso ta diferente da estrutura da atividade 
+<br/>
 ![Print do buscar tutor sucesso](https://github.com/user-attachments/assets/b1e70359-31e8-4cb9-af43-bde33fb7ee26)
+<br/>
 ![Print do buscar tutor erro](https://github.com/user-attachments/assets/0131fe4c-7d02-40f6-88d1-5c626fe05e81)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 listar_tutores(filtro_nome):
+<br/>
 <img width="610" height="282" alt="image" src="https://github.com/user-attachments/assets/91bca57e-ad86-4a00-be1b-23776086f41c" />
+<br/>
 <img width="566" height="277" alt="image" src="https://github.com/user-attachments/assets/673bc25c-82d0-4390-8de0-2b3d27bd3499" />
+<br/>
 <img width="855" height="360" alt="image" src="https://github.com/user-attachments/assets/e241d0b5-76f7-44a8-b1ab-4f302d4bad60" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 atualizar_tutor(id, **campos):
 estrutura interna:
+<br/>
 <img width="762" height="232" alt="image" src="https://github.com/user-attachments/assets/3e82e988-27e8-480f-8ec8-bd85d7efe07c" />
+<br/>
 <img width="1096" height="217" alt="image" src="https://github.com/user-attachments/assets/c07f2e33-67bd-4cd4-9202-f30b691b3e15" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 teste funcionando:
+<br/>
 <img width="472" height="357" alt="image" src="https://github.com/user-attachments/assets/8d47e867-ea52-432d-8816-cc86af09c014" />
+<br/>
 <img width="587" height="247" alt="image" src="https://github.com/user-attachments/assets/4d24c8fa-ca5f-45d9-b1d0-7c7f27388dc4" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 id_invalido:
+<br/>
 <img width="361" height="355" alt="image" src="https://github.com/user-attachments/assets/51dd40d1-2fda-44ca-ad2c-481bec766d3d" />
 
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 erro com campo fora da lista:
+<br/>
 <img width="457" height="340" alt="image" src="https://github.com/user-attachments/assets/b8fe8b9a-853a-49b8-a676-d5e771418c2f" />
 
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 Delete: excluir_tutor():
+<br/>
 <img width="430" height="277" alt="image" src="https://github.com/user-attachments/assets/e8d9c5eb-734c-4b26-9d22-a858067e4228" />
+<br/>
 <img width="667" height="270" alt="image" src="https://github.com/user-attachments/assets/4dc00f53-3d2d-45c2-a853-3bb98975521d" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Etapa 3 — Relacionamento 1:N tutor → pet 
+<br/>
+# Etapa 3 — Relacionamento 1:N tutor → pet 
 criar_pet():
+<br/>
 <img width="500" height="452" alt="image" src="https://github.com/user-attachments/assets/88968d77-4145-46f0-b470-d7f519b15bea" />
+<br/>
 <img width="657" height="187" alt="image" src="https://github.com/user-attachments/assets/59ee8e18-c888-47d1-8bbc-fdc7a4cec937" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 atualizar pesso:
+<br/>
 <img width="362" height="342" alt="image" src="https://github.com/user-attachments/assets/61362bf3-8095-444a-b702-1a08bb078bc9" />
+<br/>
 <img width="287" height="311" alt="image" src="https://github.com/user-attachments/assets/183a401a-1905-4d34-a27d-04c879e6dc16" />
 
-
-
-
-
-
-
-
-
-
-
+<br/>
 transferir_pet()
+<br/>
 <img width="630" height="236" alt="image" src="https://github.com/user-attachments/assets/783953a9-c675-49eb-83b3-35fc68e06cfb" />
+<br/>
 <img width="322" height="236" alt="image" src="https://github.com/user-attachments/assets/73b42cfe-33e3-4210-9ea3-c4b32950e257" />
 
-
-
-
-
-
-
-
-
-
-
+<br/>
 excluir_pet():
+<br/>
 <img width="680" height="297" alt="image" src="https://github.com/user-attachments/assets/f18d936f-0c18-4a23-9ff9-2689457c9960" />
+<br/>
 <img width="407" height="296" alt="image" src="https://github.com/user-attachments/assets/817eda3e-a1f1-4602-a74f-824cd8cefe41" />
 
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 listar_pets_do_tutor():
+<br/>
 <img width="627" height="290" alt="image" src="https://github.com/user-attachments/assets/1e5fad31-c415-445a-9acb-60c9e1bba69d" />
+<br/>
 <img width="707" height="101" alt="image" src="https://github.com/user-attachments/assets/b6707cc7-587d-4b4b-a843-c35606d8fff1" />
+<br/>
 <img width="397" height="237" alt="image" src="https://github.com/user-attachments/assets/ec0ca3b7-b4ff-47bd-8aac-e2e8992afebe" />
 
-
-
-
-
-
-
-
-
-
+<br/>
 buscar_pet_com_tutor():
+<br/>
 <img width="727" height="187" alt="image" src="https://github.com/user-attachments/assets/b635d2ab-19ab-4c9f-9636-d5db66c41f28" />
+<br/>
 <img width="357" height="252" alt="image" src="https://github.com/user-attachments/assets/1ec445a3-bc46-45e7-b0d1-98c35f1094ba" />
 
-
-
-
-
-
-
-
-
-
-
-Etapa 4 — Relacionamento N:N consulta ↔ procedimento 
+<br/>
+# Etapa 4 — Relacionamento N:N consulta ↔ procedimento 
 agendar_consulta(id_pet, id_vet, data_hora, motivo, procedimentos)
+<br/>
 <img width="687" height="442" alt="image" src="https://github.com/user-attachments/assets/2be2c8e3-9f9b-403f-88a7-ff7066d23c2b" />
+<br/>
 <img width="1485" height="450" alt="image" src="https://github.com/user-attachments/assets/12be30c3-da7c-498c-8ea9-ee154081ee12" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 adicionar_procedimento()
+<br/>
 <img width="456" height="387" alt="image" src="https://github.com/user-attachments/assets/27cdeab7-7f12-4504-a14d-e7684b854980" />
+<br/>
 procedimento repetido:
+<br/>
 <img width="1480" height="425" alt="image" src="https://github.com/user-attachments/assets/281b348a-e052-4286-8004-bdc5cb22cefe" />
 
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 remover_procedimento()
+<br/>
 <img width="501" height="395" alt="image" src="https://github.com/user-attachments/assets/6198aeb0-0061-4d56-8479-6a052090abcf" />
+<br/>
 <img width="822" height="367" alt="image" src="https://github.com/user-attachments/assets/e1c2d0bb-4329-4d6f-9a00-5a3d9df0e058" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 listar_procedimentos_da_consulta()
+<br/>
 <img width="482" height="440" alt="image" src="https://github.com/user-attachments/assets/fb47527a-be31-4d4b-a4d0-8ac90ec2b15f" />
+<br/>
 <img width="530" height="391" alt="image" src="https://github.com/user-attachments/assets/68c9c244-e248-44eb-a86c-cb019b4cf3c5" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 listar_consultas_por_procedimento()
+<br/>
 <img width="432" height="432" alt="image" src="https://github.com/user-attachments/assets/1d7378fb-294d-4d1e-9fed-739af0a67d96" />
+<br/>
 <img width="371" height="412" alt="image" src="https://github.com/user-attachments/assets/2328b83a-35b3-43b3-bbc5-4823a2f1161f" />
+<br/>
 <img width="512" height="137" alt="image" src="https://github.com/user-attachments/assets/6642e61b-3c3b-472c-9124-01d91b0f2357" />
 
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 total_da_consulta()
+<br/>
 <img width="291" height="136" alt="image" src="https://github.com/user-attachments/assets/12b2e180-12ef-4828-9774-462b8ccf267c" />
+<br/>
 <img width="320" height="152" alt="image" src="https://github.com/user-attachments/assets/ae22a518-e7a5-4ad8-a83e-8d3cd49d8e8d" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
 atualizar_status_consulta() 
+<br/>
 <img width="637" height="315" alt="image" src="https://github.com/user-attachments/assets/cb751a7d-9fc2-4a87-9221-0ba0057e1406" />
+<br/>
 <img width="635" height="256" alt="image" src="https://github.com/user-attachments/assets/80d10aeb-df78-4b57-ac8a-230d62bfc5e4" />
 
-
-
-
-
-
-
+<br/>
 excluir_consulta():
+<br/>
 <img width="457" height="330" alt="image" src="https://github.com/user-attachments/assets/8ec68661-0683-4dca-b943-621d4d6ed495" />
+<br/>
 <img width="496" height="235" alt="image" src="https://github.com/user-attachments/assets/476f397f-4c67-4805-a60f-bdad29c3de33" />
 
 
-
+<br/>
 Bonus:
+<br/>
 <img width="510" height="460" alt="image" src="https://github.com/user-attachments/assets/deb25026-169d-4e90-8da8-7e17304260b5" />

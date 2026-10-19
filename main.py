@@ -60,32 +60,32 @@ while opcao != "sair":
    elif opcao == "2":
       print("\n")
 
-      opcao_dois = int(input(
+      opcao_dois =input(
                " Digite uma opção: \n" \
                " [1] Create: criar_tutor \n" \
                " [2] Read: buscar tutor por ID \n" \
                " [3] Read: listar tutores \n"\
                " [4] Update: atualizar_tutor \n" \
                " [5] Delete: excluir_tutor \n"
-               " Opção: " ))
+               " Opção: " )
 
-      if opcao_dois == 1:
+      if opcao_dois == "1":
          print("\n")
 
          id_tutor = repositorio.criar_tutor()
          if id_tutor is not None:
             print(f"Tutor cadastrado com sucesso! ID: {id_tutor}")
 
-      elif opcao_dois == 2:
+      elif opcao_dois == "2":
          print("\n")
          tutor = repositorio.buscar_tutor()
 
-         if tutor:
-            print(tutor)
+         if tutor == None:
+            pass  
          else:
-            print("Tutor não encontrado")
-
-      elif opcao_dois == 3:
+            print(tutor)
+         
+      elif opcao_dois == "3":
          print("\n")
          filtro = input("Digite um nome para filtrar (Enter para listar todos): ")
 
@@ -97,14 +97,15 @@ while opcao != "sair":
          else:
             print("Nenhum tutor encontrado.")
 
-      elif opcao_dois == 4:
+      elif opcao_dois == "4":
          print("\n")
          repositorio.atualizar_tutor(id_tutor = input("Digite o ID do tutor: "),
                          nome = input("Digite o nome do tutor: "),
                          email = input("Digite o email do tutor: "),
-                         telefone = input("Digite o telefone do tutor: "))
+                         telefone = input("Digite o telefone do tutor: "),
+                         cpf = input("Digite o cpf"))
 
-      elif opcao_dois == 5:
+      elif opcao_dois == "5":
          print("\n")
          repositorio.excluir_tutor()
 

@@ -89,26 +89,21 @@ Se a conexão falhar, confira o nome da instância, as credenciais, o método de
 
 Prints do validador:
 -- Questão 1 --
-<img width="972" height="381" alt="image" src="https://github.com/user-attachments/assets/b11bf36e-9ce9-4032-96ff-4cea8971a721" />
+![Print de uma conexão bem-sucedida](https://github.com/user-attachments/assets/b11bf36e-9ce9-4032-96ff-4cea8971a721")
 
 -- Quetão 2 --
 
-
 menu de seleção:
-<img width="1285" height="337" alt="image" src="https://github.com/user-attachments/assets/f0fc2493-23e9-4abb-847f-7cec7272d056" />
-
-
+![Print do menu de seleção](https://github.com/user-attachments/assets/f0fc2493-23e9-4abb-847f-7cec7272d056)
 
 criar tutor () funcionamento e verificações de erro:
-<img width="395" height="325" alt="image" src="https://github.com/user-attachments/assets/b52fc2d7-89cf-4a2d-ab65-09b5f170370a" />
-<img width="415" height="322" alt="image" src="https://github.com/user-attachments/assets/58f834d8-98a4-4111-9ac6-8db93124dcaf" />
-
-
+![Print do criar tutor sucesso](https://github.com/user-attachments/assets/b52fc2d7-89cf-4a2d-ab65-09b5f170370a)
+![Print do criar tutor erro](https://github.com/user-attachments/assets/58f834d8-98a4-4111-9ac6-8db93124dcaf)
 
 buscar tutor por ID :
-# tinha feito update antes por isso ta diferente da estrutura da atividade 
-<img width="826" height="285" alt="image" src="https://github.com/user-attachments/assets/b1e70359-31e8-4cb9-af43-bde33fb7ee26" />
-<img width="352" height="312" alt="image" src="https://github.com/user-attachments/assets/0131fe4c-7d02-40f6-88d1-5c626fe05e81" />
+tinha feito update antes por isso ta diferente da estrutura da atividade 
+![Print do buscar tutor sucesso](https://github.com/user-attachments/assets/b1e70359-31e8-4cb9-af43-bde33fb7ee26)
+![Print do buscar tutor erro](https://github.com/user-attachments/assets/0131fe4c-7d02-40f6-88d1-5c626fe05e81)
 
 
 
